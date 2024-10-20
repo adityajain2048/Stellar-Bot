@@ -1,0 +1,36 @@
+{
+  "name": "steller-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/big.js": "^6.2.2",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.2.0",
+    "alchemy-sdk": "^3.4.1",
+    "axios": "^1.7.3",
+    "big.js": "^6.2.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.5.2",
+    "node-cron": "^3.0.3",
+    "redis": "^4.7.0",
+    "stellar-sdk": "^12.2.0",
+    "winston": "^3.14.2",
+    "zod": "^3.23.8"
+  }
+}

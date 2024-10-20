@@ -1,0 +1,13 @@
+node_modules
+.env
+test.ts
+exampleEvents.json
+exampleEvent.json
+exampleTxn.json
+exampleTxns.json
+build
+logs
+nodemon.json
+releaseTest.ts
+exampleParsedLog.json
+exampleLog.json
