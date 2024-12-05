@@ -1,0 +1,1 @@
+export const tokenInfoUrl = "https://api.geckoterminal.com/api/v2/networks/linea/tokens/multi";
